@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Giphy HW6</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <!-- Giphy API key: 9hZiQVnKSW5XO4IGzROLlMbAkgZyvWyF -->
+
+    <!-- q: string
+    Search query term or phrase.
+    GIPHY search will automatically look for exact matches to queries + AND match + OR match. Explicit AND + OR boolean clauses in search queries are not supported. -->
+
+    <!-- rating: string
+    Filters results by specified rating. -->
+
+    <!-- limit: integer (int32)
+    The maximum number of records to return.
+    25 -->
+</head>
+<body>
+
+<div id="animalButtons"> </div>
+
+    <form id="animal-form">
+        <label for="animal-input">Add An Animal: </label>
+        <input type="text" id="animal-input">
+        <button id="addAnimal">Submit</button>
+    </form>
+
+<div id="gifDump"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="giphy.js"></script>
+   
+</body>
+</html>
